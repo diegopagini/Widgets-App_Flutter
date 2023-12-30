@@ -19,6 +19,7 @@ class AppTheme {
             'selectedColor must be less or equiat than ${colorList.length - 1}');
 
   ThemeData getTheme() => ThemeData(
+        appBarTheme: const AppBarTheme(centerTitle: false),
         colorSchemeSeed: colorList[selectedColor],
         useMaterial3: true,
       );
