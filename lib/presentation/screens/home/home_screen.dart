@@ -47,6 +47,10 @@ class _CustomListTitle extends StatelessWidget {
       leading: Icon(menuItem.icon, color: colors.primary),
       subtitle: Text(menuItem.subTitle),
       title: Text(menuItem.title),
+      trailing: Icon(Icons.arrow_forward_ios_rounded, color: colors.primary),
+      onTap: () {
+        // TODO: navegar
+      },
     );
   }
 }
