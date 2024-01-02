@@ -40,6 +40,6 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
     name: AppTutorial.name,
     path: '/tutorial',
-    builder: (context, state) => const AnimatedScreen(),
+    builder: (context, state) => const AppTutorial(),
   )
 ]);
