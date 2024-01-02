@@ -4,7 +4,6 @@
 ![image](https://github.com/diegopagini/Widgets-App_Flutter/assets/62857778/e48aaf5e-8ced-4c65-a597-3c5d63828d12)
 
 
-
 ## Navigation
 
 ```dart
