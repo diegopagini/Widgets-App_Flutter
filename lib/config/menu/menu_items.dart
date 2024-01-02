@@ -39,4 +39,9 @@ const List<MenuItem> appMenuItems = [
       subTitle: 'Animated container',
       link: '/animated',
       icon: Icons.animation_outlined),
+  MenuItem(
+      title: 'Ui Controls',
+      subTitle: 'Checkbox, radios, etc...',
+      link: '/ui-controls',
+      icon: Icons.check_box_outline_blank_outlined),
 ];
