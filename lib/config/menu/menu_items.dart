@@ -44,4 +44,9 @@ const List<MenuItem> appMenuItems = [
       subTitle: 'Checkbox, radios, etc...',
       link: '/ui-controls',
       icon: Icons.check_box_outline_blank_outlined),
+  MenuItem(
+      title: 'Tutorial',
+      subTitle: 'app tutorial',
+      link: '/tutorial',
+      icon: Icons.accessibility_rounded),
 ];
